@@ -12,7 +12,7 @@
 
 
 # Use the official Nginx base image
-FROM nginx:latest
+FROM bitnami/nginx:1.14.0
 
 # Copy the custom index.html to the default Nginx web root directory
 COPY application/scripts/index.html /usr/share/nginx/html/
