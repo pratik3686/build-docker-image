@@ -28,7 +28,7 @@ jobs:
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
          image: webapp
-         tags: latest
+         tags: 0.0.1
          registry: ghcr.io
          dockerfile: application/Dockerfile
          username: ${{ secrets.DOCKER_USERNAME }}
