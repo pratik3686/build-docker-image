@@ -15,7 +15,7 @@
 FROM bitnami/nginx:1.14.0
 
 # Copy the custom index.html to the default Nginx web root directory
-COPY application/scripts/index.html /usr/share/nginx/html/
+COPY application/scripts/index.html /opt/bitnami/nginx/html
 
 # Expose port 80 to the outside world
 EXPOSE 80
